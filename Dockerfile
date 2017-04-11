@@ -55,6 +55,18 @@ WORKDIR /data
 # Define default command.
 #CMD ["mongod"]
 
+#load script file and composite_worker.js file
+RUN mkdir /tmp
+WORKDIR /tmp
+RUN git clone https://github.com/camicroscope/OrderingService.git
+
+CMD["node composite_worder.js"]
+
+
+
+
+
+
 
 
 
