@@ -58,7 +58,7 @@ WORKDIR /data
 #load script file and composite_worker.js file
 RUN mkdir /tmp
 WORKDIR /tmp
-RUN git clone https://github.com/camicroscope/OrderingService.git
+RUN git clone https://github.com/SBU-BMI/quip-composite.git
 
 CMD["node composite_worder.js"]
 
