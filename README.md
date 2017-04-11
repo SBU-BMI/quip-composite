@@ -1,2 +1,2 @@
 # quip-composite
-a docker container ,which  host script and   generate composite dataset from mongo databse
+a docker container ,which  hosts several scripts for  generating composite dataset from mongo databse
